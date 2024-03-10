@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+    <main>
+        <section class="hero">
+            <form id="form">
+                <h1>Random String Generator</h1>
+                <div>
+                    String should be
+                    <input style="width: 30px;" type="text">
+                    characters long
+                </div>
+                <p>Whih characters are allowed to occur in the string?</p>
+                <div id="checkboxes">
+                    <label>
+                        <input type="checkbox">Numeric digits (0-9)
+                    </label>
+                    <label>
+                        <input type="checkbox">Uppercase letters (A-Z)
+                    </label>
+                    <label>
+                        <input type="checkbox">Lowercase letters (a-z)
+                    </label>
+                </div>
+                <button type="submit">Generate</button>
+                <div id="line"></div>
+                <p>Result:</p>
+                <input type="text">
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
